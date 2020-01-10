@@ -1,0 +1,481 @@
+   @media (max-width: 767.98px){
+            /* CSS reset */
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+ margin:0;
+ padding:0; }
+html,body {
+  margin:0;
+padding:0;}
+body{
+/*     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
+    box-sizing:border-box;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    /* width:100vh; */
+    height:100vh;
+    background-color:#FCE4A8;
+    font-size:3vh;
+    background-image:url("../pic/background.png"); 
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+      /* border:1px solid #CCC; */
+  }
+#bg{ /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: flex-start;
+    /* border:1px solid #CCC; */
+    width:100%;
+    height:98%;
+     }
+
+#line{
+   border-top:double;
+    border-width:1.5vh;
+    border-color:#3e6b7e;
+    width:100vh;
+}
+  
+  select{
+    background-color: #00314f;
+    color: white;
+    padding: 0.5vh 3vh 0.5vh;
+    width: 20vh;
+    height:5vh;
+    border: none;
+    font-size: 3vh;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    
+    text-align: center;
+  }
+  span{
+    
+  }
+  
+  /* 這裡4 class 區*/
+  
+  .selectArea{
+    width:90%;
+    height:90%;
+    /* 將標題與選項包起來的div */
+    background-color:#fffbf3;
+    /* border :solid 0px black */;
+    border-radius:1vh;
+    box-shadow: 10px 20px 30px -10px rgba(0, 0, 0, 0.1);
+    padding:2vh 2.4vh;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top:-4%;
+    
+  }
+  
+  .chooseline{
+    /* 將選項說明與選項包起來的div */
+    margin:2vh 2vh ;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  .checkPreference{
+    /* 將選項各包起來的區域(中式一區、飯麵一區) */
+    box-sizing:border-box;
+/*     width:px; */
+    margin:1vh 0vh;
+  }
+  .Typecheckbox{
+    /*這裡將兩個checkPreference包起來(因為要作flex)*/
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .chooseButton{
+    width:40%;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .Disclaimer{
+    background-color:#fffbf3;
+    width:100%;
+    height:9%;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-items: center center;
+   
+    text-align: center;
+    /* margin: -5vh; */
+    position:relative;
+    top:2%;
+   font-size: 2vh;
+
+  }
+.title{
+   border-style:double none;
+    border-width:1.5vh;
+    border-color:#3e6b7e;
+    width:66vh;
+  
+}
+  
+  /* 這裡是ID區 */
+  #title{
+    box-sizing:border-box;
+/*     height:80px; */
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    /* 標題，如要使用圖檔再替換掉 */
+/*     margin:0px 10px 0px ; */
+   
+    color:#00314f;
+    /* font-family:Monospace; */
+    font-size:6vh;
+    text-align: center;
+    
+  }
+  #form{
+    box-sizing:border-box;
+    padding:2vh 0vh 7vh 0vh;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:space-between;
+  }
+  #checkboxArea{
+    box-sizing:border-box;
+    padding:0px 10px;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    /* visibility可以保留空間 */
+    visibility: visible;
+    border:solid 2px #3e6b7e;
+    border-radius:5px;
+  }
+  #chooseButton{
+    /* 全選或全不選的按鈕 */
+    margin:0px 0px 7px;
+    border:none ;
+    border-radius:5px;
+    background-color:#00314f;
+    
+    color: white;
+    font-size:13px;
+  }
+  #chooseButton:active{
+    /* 按下全選或全不選的按鈕 */
+    background-color:white;
+    
+    color: black;
+    font-size:13px;
+  }
+  
+  
+  #submitButton{
+    /* 送出按鈕 */
+    margin:0px 0px 0px;
+    border:none ;
+    border-radius:5px;
+    background-color:#B53F45;
+    width:6vh;
+    height:2vh;
+    
+    color: white;
+    font-size:18px;
+  }
+  
+  #submitButton:active{
+    /* 按下送出按鈕 */
+    background-color:#00314f;
+    color: white;
+    font-size:1vh;
+  }
+#submitButton{
+  padding:1vh;
+  text-align: center;
+  font-size:2vh;
+}
+.center{
+   text-align: center;
+  /*Flex屬性區*/
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-items: center;
+  padding:2vh;
+}
+#a{
+    width: 24vh;
+    height:12vh;
+    position: relative;
+    top:1%;
+    left:53%;
+    z-index: 3;
+}
+       }
+       @media (min-width: 767.98px){
+            /* CSS reset */
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+ margin:0;
+ padding:0; }
+html,body {
+  margin:0;
+padding:0;}
+body{
+/*     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
+    box-sizing:border-box;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    /* width:100vh; */
+    height:100vh;
+    background-color:#FCE4A8;
+    font-size:3vh;
+    background-image:url("../pic/background.png"); 
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+  }
+#bg{ /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: flex-start;
+    /* border:1px solid #CCC; */
+    width:100vh;
+    height:85vh;
+    
+  
+    
+
+     }
+
+#line{
+   border-top:double;
+    border-width:1.5vh;
+    border-color:#3e6b7e;
+    width:100vh;
+}
+  
+  select{
+    background-color: #00314f;
+    color: white;
+    padding: 0.5vh 3vh 0.5vh;
+    width: 30vh;
+    height:5vh;
+    border: none;
+    font-size: 3vh;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    
+    text-align: center;
+  }
+
+  
+  /* 這裡4 class 區*/
+  
+  .selectArea{
+    width:66vh;
+    height:72vh;
+    /* 將標題與選項包起來的div */
+    background-color:#fffbf3;
+    /* border :solid 0px black */;
+    border-radius:1vh;
+    box-shadow: 10px 20px 30px -10px rgba(0, 0, 0, 0.1);
+    padding:2vh 3vh;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top:-7vh;
+    left:14vh;
+  }
+  
+  .chooseline{
+    /* 將選項說明與選項包起來的div */
+    margin:2vh 4vh ;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  .checkPreference{
+    /* 將選項各包起來的區域(中式一區、飯麵一區) */
+    box-sizing:border-box;
+/*     width:px; */
+    margin:2vh 4vh;
+  }
+  .Typecheckbox{
+    /*這裡將兩個checkPreference包起來(因為要作flex)*/
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .chooseButton{
+    width:40%;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .Disclaimer{
+    background-color:#fffbf3;
+    width:100%;
+    height:9%;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-items: center center;
+    padding:1vh;
+    text-align: center;
+    margin: -5vh;
+    position:relative;
+    top:2%;
+   font-size: 2vh;
+
+  }
+.title{
+   border-style:double none;
+    border-width:1.5vh;
+    border-color:#3e6b7e;
+    width:66vh;
+  
+}
+  
+  /* 這裡是ID區 */
+  #title{
+    box-sizing:border-box;
+/*     height:80px; */
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    /* 標題，如要使用圖檔再替換掉 */
+/*     margin:0px 10px 0px ; */
+   
+    color:#00314f;
+    /* font-family:Monospace; */
+    font-size:6vh;
+    text-align: center;
+    
+  }
+  #form{
+    box-sizing:border-box;
+    padding:2vh 0vh 7vh 0vh;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:space-between;
+  }
+  #checkboxArea{
+    box-sizing:border-box;
+    padding:0px 10px;
+    /*Flex屬性區*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    /* visibility可以保留空間 */
+    visibility: visible;
+    border:solid 2px #3e6b7e;
+    border-radius:5px;
+  }
+  #chooseButton{
+    /* 全選或全不選的按鈕 */
+    margin:0px 0px 7px;
+    border:none ;
+    border-radius:5px;
+    background-color:#00314f;
+    
+    color: white;
+    font-size:13px;
+  }
+  #chooseButton:active{
+    /* 按下全選或全不選的按鈕 */
+    background-color:white;
+    
+    color: black;
+    font-size:13px;
+  }
+  
+  
+  #submitButton{
+    /* 送出按鈕 */
+    margin:0px 0px 0px;
+    border:none ;
+    border-radius:5px;
+    background-color:#B53F45;
+    width:6vh;
+    height:2vh;
+    
+    color: white;
+    font-size:18px;
+  }
+  
+  #submitButton:active{
+    /* 按下送出按鈕 */
+    background-color:#00314f;
+    color: white;
+    font-size:1vh;
+  }
+#submitButton{
+  padding:1vh;
+  text-align: center;
+  font-size:2vh;
+}
+.center{
+   text-align: center;
+  /*Flex屬性區*/
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-items: center;
+  padding:2vh;
+}
+#a{
+    width: 24vh;
+    height:14vh;
+    position: relative;
+    top:-2.5vh;
+    left:38vh;
+    z-index: 3;
+}
+       }
+ 
+  /* 這裡是選擇器區(但願用不到..吧) */

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Random Machine</title>
+    <script type="text/javascript" src="../js/FoodMapRandomizer.js"></script>
+    <style>
+        @import url("../css/FoodMapRandomizer.css");
+    </style>
+</head>
+
+<body style="background-image:url('../pic/background.png')">
+    <div id="bg">
+        <div>
+            <img id="a" src="../pic/randomfood04.png" alt="">
+        </div>
+        <div class="selectArea">
+            <div class="title">
+                <p id="title">Lunch & Dinner</p>
+            </div>
+            <div id="form">
+                <div class="chooseline">
+                    <span>1.抽出個數：</span>
+                    <select name="number" size="1">
+                        <option value="5" selected>5</option>
+                        <option value="0">我想看全部清單</option>
+                    </select>
+                </div>
+                <div class="chooseline">
+                    <span>2.預算區間：</span>
+                    <select name="price" size="1">
+                        <option value="1">100以下</option>
+                        <option value="2">100~150</option>
+                        <option value="3">150~200</option>
+                        <option value="4">200~300</option>
+                        <option value="0" selected>不限</option>
+                    </select>
+                </div>
+                <div class="chooseline">
+                    <span>3.行走時間：</span>
+                    <select name="walkTime" size="1">
+                        <option value="5">約五分鐘</option>
+                        <option value="10">約十分鐘</option>
+                        <option value="15">約十五分鐘</option>
+                        <option value="20">約二十分鐘</option>
+                        <option value="0" selected>不限</option>
+                    </select>
+                </div>
+                <div class="chooseline">
+                    <span>4.飲食類型：</span>
+                    <div>
+                        <label><input type="radio" name="foodType" value="0" checked onClick="showType()">正餐
+                            <label><input type="radio" name="foodType" value="1" onClick="hideType()">點心
+                                <label><input type="radio" name="foodType" value="2" onClick="hideType()">飲料
+                    </div>
+                </div>
+                <div id="checkboxArea">
+                    <div class="Typecheckbox">
+                        <div class="checkPreference ">
+                            <label><input type="checkbox" name="foodStyle" value="0" checked>中式
+                                <label><input type="checkbox" name="foodStyle" value="1" checked>西式
+                                    <br>
+                                    <label><input type="checkbox" name="foodStyle" value="2" checked>日韓
+                                        <label><input type="checkbox" name="foodStyle" value="3" checked>東南亞
+                        </div>
+                        <div class="checkPreference">
+                            <label><input type="checkbox" name="foodStyle" value="4" checked>飯類
+                                <label><input type="checkbox" name="foodStyle" value="5" checked>麵類
+                                    <br>
+                                    <label><input type="checkbox" name="foodStyle" value="6" checked>速食
+                                        <label><input type="checkbox" name="foodStyle" value="7" checked>早午餐<br>
+                        </div>
+                    </div>
+                    <div class="chooseButton">
+                        <button onclick="chooseAll()" id="chooseButton">全選</button>
+                        <button onclick="killAll()" id="chooseButton">全不選</button>
+                    </div>
+                </div>
+                <div class="center">
+                    <form id="hiddenForm" method="Post" action="../FoodMapRandomizer">
+                        <input name="conditionJSON" id="toSubmit" type="hidden" value="">
+                    </form>
+                    <div id="submitButton" onclick="checkSubmit()"> 送出</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Disclaimer">更新時間為2019.12。一切以現場為主，<br>Random有好有壞，詳細請參考農民曆&水逆~<br>拜媽祖或買綠色乖乖</div>
+</body>
+
+</html>

@@ -1,0 +1,1951 @@
+/* // xl - Extra large devices (large desktops, 1200px and up) */
+
+/* // xs - Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 375px) and (max-width: 575.98px) {
+
+    /* CSS reset */
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .bgheader {
+
+        height: 3vh;
+        padding: 1vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 55vh;
+        height: 85vh;
+        /* height: 60vh; */
+        border-radius: 99vh;
+        display: flex;
+        /* flex-flow: column  nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .fork {
+        display: none;
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 4vh;
+        width: 14vh;
+        background-color: #b53f45;
+        /* padding: 0.5vh; */
+        border-radius: 1vh;
+        padding: 1vh 0vh 0.1vh;
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+
+    }
+
+    .button_padding {
+        padding: 3vh 2vh;
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        padding: 1vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+        border-radius: 0.5vh;
+
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 4vh;
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        /* box-sizing: border-box; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 25vh;
+        width: 47.5vh;
+        border-radius: 0.5vh;
+
+    }
+
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 2.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title3 {
+        /* margin: 1vh; */
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 50vh;
+    }
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 30vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+
+/* // xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 375px) {
+
+    /* CSS reset */
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .bgheader {
+
+        height: 2vh;
+        padding: 1vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 56vh;
+        height: 80vh;
+        /* height: 60vh; */
+        border-radius: 50vh;
+        display: flex;
+        /* flex-flow: column  nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .fork {
+        display: none;
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 4vh;
+        width: 14vh;
+        background-color: #b53f45;
+        /* padding: 0.5vh; */
+        border-radius: 1vh;
+        padding: 1vh 0vh 0.1vh;
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+
+    }
+
+    .button_padding {
+        padding: 2vh 0.5vh;
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 4vh;
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        /* box-sizing: border-box; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        padding: 1vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; */
+        /* height: 680px; */
+        border-radius: 0.5vh;
+
+    }
+
+    #formsize {
+        width: 25vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 25vh;
+        width: 47.5vh;
+        border-radius: 0.5vh;
+
+    }
+
+
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 2.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title3 {
+        /* margin: 1vh; */
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 50vh;
+    }
+
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 30vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+
+/* // xs - Extra small devices (portrait phones, less than 576px) */
+@media (width: 375px) and (height:812px) {
+
+    /* CSS reset */
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .bgheader {
+
+        height: 2vh;
+        padding: 1vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 46vh;
+        height: 80vh;
+        /* height: 60vh; */
+        border-radius: 50vh;
+        display: flex;
+        /* flex-flow: column  nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .fork {
+        display: none;
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 4vh;
+        width: 11vh;
+        background-color: #b53f45;
+        /* padding: 0.5vh; */
+        border-radius: 1vh;
+        padding: 1vh 0vh 0.1vh;
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+
+    }
+
+    .button_padding {
+        padding: 2vh 1vh;
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 4vh;
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        /* box-sizing: border-box; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        padding: 1vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+        border-radius: 0.5vh;
+
+    }
+
+    #formsize {
+        width: 25vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 25vh;
+        width: 40vh;
+        border-radius: 0.5vh;
+
+    }
+
+ 
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 2.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title3 {
+        /* margin: 1vh; */
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 40vh;
+    }
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 23vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+/* // sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    .bgheader {
+
+        height: 10px;
+        padding: 4vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 93vh;
+        height: 93vh;
+        border-radius: 99vh;
+        display: flex;
+        /*             flex-flow: column nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        border-radius: 1vh;
+        padding: 2vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 5vh;
+        text-align: center;
+        padding: 2vh;
+
+
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    #formsize {
+        width: 30vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+
+    }
+
+
+
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 3.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title3 {
+        margin: 1vh;
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+
+
+
+    .fork {
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 5vh;
+        width: 20vh;
+        background-color: #b53f45;
+        padding: 0.5vh;
+        border-radius: 3vh;
+
+
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+    }
+
+    .button_padding {
+        padding: 2vh 10vh;
+
+    }
+
+    img {
+        width: 20vh;
+        height: 70vh;
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+    }
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 38vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* // md - Medium devices (tablets, 768px and up) ipad*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    .bgheader {
+
+        height: 10px;
+        padding: 4vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 93vh;
+        height: 93vh;
+        border-radius: 99vh;
+        display: flex;
+        /*             flex-flow: column nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        border-radius: 1vh;
+        padding: 2vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 5vh;
+        text-align: center;
+        padding: 2vh;
+
+
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    #formsize {
+        width: 30vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+
+    }
+
+
+
+
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 3.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title3 {
+        margin: 1vh;
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+
+
+
+    .fork {
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 5vh;
+        width: 20vh;
+        background-color: #b53f45;
+        padding: 0.5vh;
+        border-radius: 3vh;
+
+
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+    }
+
+    .button_padding {
+        padding: 2vh 10vh;
+
+    }
+
+    img {
+        width: 20vh;
+        height: 70vh;
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+    }
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 38vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+/* // md - Medium devices (tablets, 768px and up) ipad*/
+@media (min-width: 768px) and (max-width: 991.98px) and (height:1024px) {
+
+    /* CSS reset */
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .bgheader {
+
+        height: 5px;
+        padding: 1vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 75vh;
+        height: 80vh;
+        /* height: 75vh; */
+        border-radius: 99vh;
+        display: flex;
+        /* flex-flow: column  nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 0px 0px 0px;
+        /* margin: 0vh -2vh 0vh -2vh; */
+    }
+
+    .fork {
+        display: none;
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 5vh;
+        width: 14vh;
+        background-color: #b53f45;
+        padding: 0.5vh;
+        border-radius: 2vh;
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+
+    }
+
+    .button_padding {
+        padding: 2vh 1.5vh;
+        border-radius: 1vh;
+
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        padding: 1vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+        border-radius: 1vh;
+
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 4vh;
+        text-align: center;
+        padding: 1.5vh;
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        /* box-sizing: border-box; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    #formsize {
+        width: 30vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+  
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 2.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title3 {
+        margin: 1vh;
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 28vh;
+        width: 50vh;
+
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+    }
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 38vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* 
+// computer - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* CSS reset */
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    .bgheader {
+
+        height: 10px;
+        padding: 4vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 93vh;
+        height: 93vh;
+        border-radius: 99em;
+        display: flex;
+        /*             flex-flow: column nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        border-radius: 1vh;
+        padding: 2vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 5vh;
+        text-align: center;
+        padding: 2vh;
+
+
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    #formsize {
+        width: 30vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+        border-radius: 0.5vh;
+
+    }
+
+ 
+
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 3.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    /* .multiple_line{
+                margin:0;
+              padding:0;
+            
+              white-space:pre-line;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            max-height:10px;
+ }   */
+    .title3 {
+        margin: 1vh;
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .fork {
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 5vh;
+        width: 20vh;
+        background-color: #b53f45;
+        padding: 0.5vh;
+        border-radius: 3vh;
+
+
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+    }
+
+    .button_padding {
+        padding: 2vh 10vh;
+
+    }
+
+    img {
+        width: 20vh;
+        height: 70vh;
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+    }
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 38vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+/* ipadpro - Large devices (desktops, 992px and up) ipad pro*/
+@media (min-width: 992px) and (max-width: 1024px) and (height:1366px) {
+
+
+    /* CSS reset */
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .bgheader {
+
+        height: 10px;
+        padding: 1vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 75vh;
+        height: 85vh;
+        /* height: 75vh; */
+        border-radius: 99vh;
+        display: flex;
+        /* flex-flow: column  nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 0px 0px 0px;
+        /* margin: 0vh -2vh 0vh -2vh; */
+    }
+
+    .fork {
+        display: none;
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 5vh;
+        width: 15vh;
+        background-color: #b53f45;
+        padding: 0.5vh;
+        border-radius: 2vh;
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+
+    }
+
+    .button_padding {
+        padding: 3vh 2vh;
+        border-radius: 1vh;
+
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        padding: 1vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+        border-radius: 1vh;
+
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 4vh;
+        text-align: center;
+        padding: 1.5vh;
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        /* box-sizing: border-box; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    #formsize {
+        width: 30vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 2.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title3 {
+        margin: 1vh;
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 28vh;
+        width: 50vh;
+        border-radius: 0.5vh;
+
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+    }
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 29vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+ 
+
+
+}
+
+
+/* 
+// xl - Extra large devices (large desktops, 1200px and up) computer*/
+@media (min-width: 1200px) {
+
+    /* CSS reset */
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #FCe4a8;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    .bgheader {
+
+        height: 10px;
+        padding: 4vh;
+    }
+
+    .circle {
+        background-color: #ffffff;
+        width: 93vh;
+        height: 93vh;
+        border-radius: 99em;
+        display: flex;
+        /*             flex-flow: column nowrap; */
+        justify-content: center;
+        align-items: flex-start;
+
+
+    }
+
+    .form {
+        box-sizing: border-box;
+        background-color: #3e6b7e;
+        border-radius: 1vh;
+        padding: 2vh;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* width: 550px; height: 680px; */
+
+    }
+
+    #title {
+        box-sizing: border-box;
+        /* height: 80px; */
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        color: #00314f;
+        font-size: 5vh;
+        text-align: center;
+        padding: 2vh;
+
+
+    }
+
+    .colorless {
+
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /*             border: solid 1px black; */
+    }
+
+    .bgimg {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    #formsize {
+        width: 30vh;
+        height: 30vh;
+        box-sizing: border-box;
+
+    }
+
+    .mapsize {
+        background-color: blanchedalmond;
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+        border-radius: 0.5vh;
+
+    }
+
+ 
+
+
+
+    .tilte2 {
+        margin: 0vh 0.5vh;
+        font-size: 3.5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    /* .multiple_line{
+                margin:0;
+              padding:0;
+            
+              white-space:pre-line;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            max-height:10px;
+ }   */
+    .title3 {
+        margin: 1vh;
+        font-size: 2vh;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .fork {
+        width: 20vh;
+        /* border: solid 1px black; */
+    }
+
+    .button {
+        height: 5vh;
+        width: 20vh;
+        background-color: #b53f45;
+        padding: 0.5vh;
+        border-radius: 3vh;
+    }
+
+    .bgb {
+        box-sizing: border-box;
+        /*Flex屬性區*/
+        display: flex;
+        align-items: center;
+    }
+
+    .button_padding {
+        padding: 2vh 10vh;
+
+    }
+
+    img {
+        width: 20vh;
+        height: 70vh;
+    }
+
+    #RestList {
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+        height: 26vh;
+        width: 55vh;
+    }
+    /* div.Block1{
+        padding: 0vh 2vh 0vh 0vh;
+        margin: 0vh 1vh 0vh 0vh;
+    }
+    div.Block2{
+        padding: 0vh 2vh 0vh 0vh;
+       
+    }
+    p.Block1{
+        margin: 0vh 1vh 0vh 0vh;
+
+    } */
+    #List1{
+        /* background-color: #ffffff; */
+        margin: 1vh 1vh;
+    }
+    .List {
+        /*Flex屬性區*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1vh 0vh;
+    }
+
+    .Block1 {
+        background-color: #ffffff;
+        width: 38vh;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+
+    .Block2 {
+        background-color: #ffffff;
+        width: 15VH;
+        height: 3.5vh;
+        text-align: center;
+        border-radius: 0.5vh;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+

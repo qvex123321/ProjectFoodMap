@@ -1,0 +1,256 @@
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FCe4a8;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bgheader {
+
+    height: 2vh;
+    padding: 1vh;
+}
+
+/* .circle {
+                background-color: #ffffff;
+                width: 46vh;
+                height: 80vh;
+                
+                border-radius: 50vh;
+                display: flex;
+                
+                justify-content: center;
+                align-items: flex-start;
+
+            } 
+            */
+
+.fork {
+    display: none;
+    width: 20vh;
+    border: solid 1px black;
+}
+
+.button {
+    height: 4vh;
+    width: 11vh;
+    background-color: #b53f45;
+    /* padding: 0.5vh; */
+    border-radius: 1vh;
+    padding: 1vh 0vh 0.1vh;
+}
+
+.bgb {
+    box-sizing: border-box;
+    /*Flex屬性區*/
+    display: flex;
+    align-items: center;
+
+}
+
+.button_padding {
+    padding: 2vh 1vh;
+}
+
+#title {
+    box-sizing: border-box;
+    /* height: 80px; */
+    /*Flex屬性區*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    color: #00314f;
+    font-size: 4vh;
+    text-align: center;
+    padding: 1vh 0vh 4vh 0vh;
+}
+
+.colorless {
+
+    box-sizing: border-box;
+    /*Flex屬性區*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /*             border: solid 1px black; */
+}
+
+.bgimg {
+    /* box-sizing: border-box; */
+    display: flex;
+    align-items: center;
+
+}
+
+.form {
+    box-sizing: border-box;
+    background-color: #3e6b7e;
+    padding: 1vh;
+    /*Flex屬性區*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 550px; height: 680px; */
+    border-radius: 0.5vh;
+
+}
+
+#formsize {
+    width: 25vh;
+    height: 30vh;
+    box-sizing: border-box;
+
+}
+
+.mapsize {
+    background-color: blanchedalmond;
+    margin: 1vh 1vh;
+    height: 25vh;
+    width: 40vh;
+    border-radius: 0.5vh;
+
+}
+
+
+
+.tilte2 {
+    margin: 0vh 0.5vh;
+    font-size: 3vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.title3 {
+    /* margin: 1vh; */
+    font-size: 2vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+#RestList {
+    /* background-color: #ffffff; */
+
+    margin: 1vh 1vh;
+    height: 59vh;
+    width: 40vh;
+    overflow: auto;
+    /* overflow-y: hidden; */
+    -ms-overflow-style: none;
+    overflow: -moz-hidden-unscrollable;
+
+
+}
+
+#RestList::-webkit-scrollbar {
+    width: 0 !important;
+
+}
+
+#RestList::-ms-overflow-style {
+    width: 0 !important;
+
+}
+
+#RestList::-ms-overflow-style {
+    width: 0 !important;
+
+}
+
+.List {
+    /*Flex屬性區*/
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1vh 0vh;
+}
+
+
+.Block1 {
+    /*Flex屬性區*/
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    width: 23vh;
+    height: 3.5vh;
+    /* text-align: center; */
+    border-radius: 0.5vh;
+    font-size: 2vh;
+}
+
+.Block2 {
+    /*Flex屬性區*/
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    width: 11VH;
+    height: 3.5vh;
+    /* text-align: center; */
+    border-radius: 0.5vh;
+    font-size: 2vh;
+}
+
+/* #RestList>div:nth-child(even).{
+            background-color: #cfcfcf;
+        } */
+
+#List1 {
+    /* background-color: #ffffff; */
+    margin: 1vh 1vh;
+
+    align-items: center;
+}
+
+#List1>div>* {
+    background: #c7d8df;
+
+}
+
+/* #List1>div>p.Block2{
+         position: relative;
+         left:-1.2vh;
+      } */
